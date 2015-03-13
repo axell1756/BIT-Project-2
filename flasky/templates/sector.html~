@@ -1,0 +1,9 @@
+{% extends "main.html" %}
+{% block content %}
+<h2> Please select a sector you would like to iterate through:</h2>
+<br />
+<form method="POST" action="">
+<input type="text" name="sector" />
+<input type="submit" />
+</form>
+{% endblock %}

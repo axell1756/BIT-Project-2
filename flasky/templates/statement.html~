@@ -1,0 +1,13 @@
+{% extends "main.html" %}
+{% block content %}
+<h2> Please select a sector you would like to iterate through:</h2>
+<br />
+<form method="POST" action="" name="userInput">
+{{ form.hidden_tag() }}
+<p>
+{{ form.statement() }}
+</p>
+Would you like your output data to be filtered?{{ form.filtered() }}
+<input type="sumbit">
+</form>
+{% endblock %}

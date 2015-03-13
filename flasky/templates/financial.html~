@@ -1,0 +1,10 @@
+{% extends "main.html" %}
+{% block content %}
+<h2> Financial Position  </h2>
+<br />
+<h4>Please, enter sector you would like to analyse below</h4>
+<form method="POST" action="">
+<input type="text" name="sector" />
+<input type="submit" />
+</form>
+{% endblock %}
